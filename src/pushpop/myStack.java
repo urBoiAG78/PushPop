@@ -11,14 +11,14 @@ import java.util.ArrayList;
  *
  * @author agonzalez
  */
-public class myStack{
-    private ArrayList<Integer> stack;
+public class myStack<T>{
+    private ArrayList<T> stack;
     
     public myStack() {
         stack = new ArrayList<>();
     }
     
-    public void push(int num) {
+    public void push(T num) {
         
         stack.add(num);
     }
