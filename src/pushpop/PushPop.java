@@ -18,8 +18,8 @@ public class PushPop {
     public static void main(String[] args) {
         myStack stack = new myStack();
         stack.push(11111);
-        stack.push(11112);
-        stack.push(11113);
+        stack.push("erer");
+        stack.push(1.1);
         stack.pop();
         stack.pop();
         stack.pop();
